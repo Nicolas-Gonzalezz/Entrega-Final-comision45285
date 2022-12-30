@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    min-width: 100%;
+}
+.bkc{
+    background-color: rgb(85, 85, 85);
+    opacity: 80%;
+    min-height: 9vh;
+    font-size: 17px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+body{
+    background-image: url(../img/Foto\ Productos.jpg);
+    background-repeat: no-repeat;
+    background-size: 200vw 80vw;
+    position: relative;
+    padding-bottom: 1em;
+    min-height: 100vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+.fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80vw;
+}
+.card{
+    width: 80vw;
+    margin: 40px;
+    background-color: rgb(160, 189, 179);
+}
+.card2{
+        color: white;
+    }
+.tituloindex{
+    display: flex;
+    justify-content: center;
+    padding-top: 30vw;
+    margin-bottom: -60vw;
+}
+
+.destacados{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 7vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    margin-right: 10px;
+    text-shadow: 3px 3px 4px green;
+}
+.vivero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: -8px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+}
+footer{
+    background-color: rgb(85, 85, 85);
+}
+.marca{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3vw;
+}
+footer{
+    margin-top: auto;
+    margin-bottom: -20px;
+}
+.copy{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.nosotros{
+    color: rgb(224, 247, 239);
+    padding-top: 35vw;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+.eleguirnos{
+    color: white;
+    text-align: center;
+}
+.opiniones{
+    border: 5px solid #353535c4;
+}
+.comentarios{
+    display: none;
+}
+.h2{
+    margin-top: -15vw;
+    margin-bottom: 15vw;
+}
+.h2new{
+    display: none;
+}
+.productos{
+    display: flex;
+    margin-top: 50vw;
+    flex-direction: column;
+    align-items: center;
+}
+.bg{
+    background-color: black;
+}
+.acercar{
+    overflow: hidden;
+}
+.acercar img{
+    transition: all 2s;
+}
+.acercar:hover img{
+    transform: scale(1.2);
+}
+.img1{
+    width: 42vw;
+}
+.img2{
+    width: 42vw;
+}
+.login{
+    display: flex;
+    height: 150vw;
+    justify-content: center;
+    margin-top: 15vw;
+    background-image: url(https://img.freepik.com/foto-gratis/planta-serpiente-maceta-gris-sobre-armario-madera_53876-101292.jpg?w=740&t=st=1669694226~exp=1669694826~hmac=5f472495bf4cd3b0987c781038512567d192ac96c7b4572c3ce69e7fb258e055);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.registrarse{
+    margin-top: 2vh;
+    margin-left: 0vw;
+}

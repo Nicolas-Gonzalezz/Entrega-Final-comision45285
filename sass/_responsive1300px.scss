@@ -1,0 +1,146 @@
+@media(min-width:1300px){
+    .bkc{
+        height: 6vw;
+    }
+    .navbar{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Poppins'sans-serif;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .logo1{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    div a{
+        margin: 40px;
+        margin-right: 120px;
+    }
+    div a:hover{
+        transform: scale(1.1);
+        transition: all ease 1s;
+    }
+    body{
+        background-image: url(../img/Foto\ Productos.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 30vw;
+        position: relative;
+        padding-bottom: 1em;
+        min-height: 100vh;
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+    }
+    .destacados{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 3vw;
+        color: rgb(255, 255, 255);
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 50px;
+        text-shadow: 2px 2px 4px rgb(161, 190, 152);
+    }
+    .eleguirnos h2{
+        font-size: 40px;
+    }
+    .eleguirnos p{
+        margin-top: 3vw;
+        font-size: 30px;
+    }
+    .destacados p{
+        background-color: rgba(85, 85, 85, 0.432);
+    }
+    .tituloindex{
+        display: flex;
+        justify-content: center;
+        margin-top: 13vw;
+        padding: 0;
+        margin-bottom: -60vw;
+    }
+    .card{
+        display: flex;
+        width: 15vw;
+        height: 27vw;
+        text-align: center;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        border-radius: 5px;
+        font-size: 20px;
+        color: rgb(59, 59, 59);
+        background-color: rgb(160, 185, 171);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-color: rgb(94, 94, 94);
+    }
+    .fotos{
+        margin-top: 10vw;
+    }
+    .zoom{
+        overflow: hidden;
+    }
+    .zoom img{
+        transition: all 2s;
+    }
+    .zoom:hover img{
+        transform: scale(1.1);
+    }
+    .opiniones{
+        display: none;
+    }
+    .comentarios{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .comentario1{
+        margin-top: 0;
+        align-items: center;
+    }
+    .nosotros{
+        margin-top: 20vw;
+        padding-top: 0;
+    }
+    .nosotros p{
+        font-size: 25px;
+        margin: 40px;
+    }
+    .productos{
+        display: flex;
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+    }
+    .h2new{
+        margin-top: 15vw;
+        margin-bottom: 0;
+        color: white;
+    }
+    .h2{
+        display: none;
+    }
+    .card2{
+        height: 27vw;
+        color: black;
+        background-color: rgb(160, 185, 171);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-color: rgb(94, 94, 94);
+    }
+    .login{
+        margin-top: 0vw;
+        margin-left: 0vw;
+        width: 30vw;
+        height: 30vw;
+        background-image: url(https://img.freepik.com/foto-gratis/cactus-macetas-borde-suculento-plano-espacio-blanco_53876-129985.jpg?w=1380&t=st=1669758028~exp=1669758628~hmac=554f1fbb1d13ecd908e83ffd9691bb486debd63f1593aaff9ae217eed3e4662c);
+        width: 100%;
+        height: 50vw;
+        border-radius: 0;
+    }
+}
